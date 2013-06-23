@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57B1863616D0EF8900858712 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57B1863516D0EF8900858712 /* UIKit.framework */; };
+		57B1863816D0EF8900858712 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57B1863716D0EF8900858712 /* Foundation.framework */; };
+		57B1863A16D0EF8900858712 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57B1863916D0EF8900858712 /* CoreGraphics.framework */; };
+		57B1864016D0EF8900858712 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 57B1863E16D0EF8900858712 /* InfoPlist.strings */; };
+		57B1864316D0EF8900858712 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B1864216D0EF8900858712 /* main.m */; };
+		57B1864616D0EF8900858712 /* Swing_Checker_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B1864516D0EF8900858712 /* Swing_Checker_AppDelegate.m */; };
+		57B1864916D0EF8900858712 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57B1864716D0EF8900858712 /* MainWindow.xib */; };
+		57B1864C16D0EF8900858712 /* Swing_Checker_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B1864B16D0EF8900858712 /* Swing_Checker_ViewController.m */; };
+		57B1864F16D0EF8900858712 /* Swing_Checker_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57B1864D16D0EF8900858712 /* Swing_Checker_ViewController.xib */; };
+		57B1865F16D0EFE900858712 /* PlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B1865D16D0EFE900858712 /* PlayerView.m */; };
+		57B1866116D0F02300858712 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57B1866016D0F02300858712 /* AVFoundation.framework */; };
+		57B1866316D0F02B00858712 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57B1866216D0F02B00858712 /* CoreMedia.framework */; };
+		57B1866516D0F03100858712 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57B1866416D0F03100858712 /* MobileCoreServices.framework */; };
+		57B1867116D0F14100858712 /* AVPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B1866F16D0F14100858712 /* AVPlayerViewController.m */; };
+		57B1867216D0F14200858712 /* AVPlayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57B1867016D0F14100858712 /* AVPlayerViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		57B1863116D0EF8900858712 /* Swing_Checker_.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swing_Checker_.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57B1863516D0EF8900858712 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		57B1863716D0EF8900858712 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		57B1863916D0EF8900858712 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		57B1863D16D0EF8900858712 /* Swing_Checker_-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Swing_Checker_-Info.plist"; sourceTree = "<group>"; };
+		57B1863F16D0EF8900858712 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		57B1864116D0EF8900858712 /* Swing_Checker_-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Swing_Checker_-Prefix.pch"; sourceTree = "<group>"; };
+		57B1864216D0EF8900858712 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		57B1864416D0EF8900858712 /* Swing_Checker_AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Swing_Checker_AppDelegate.h; sourceTree = "<group>"; };
+		57B1864516D0EF8900858712 /* Swing_Checker_AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Swing_Checker_AppDelegate.m; sourceTree = "<group>"; };
+		57B1864816D0EF8900858712 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		57B1864A16D0EF8900858712 /* Swing_Checker_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Swing_Checker_ViewController.h; sourceTree = "<group>"; };
+		57B1864B16D0EF8900858712 /* Swing_Checker_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Swing_Checker_ViewController.m; sourceTree = "<group>"; };
+		57B1864E16D0EF8900858712 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Swing_Checker_ViewController.xib; sourceTree = "<group>"; };
+		57B1865D16D0EFE900858712 /* PlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerView.m; sourceTree = "<group>"; };
+		57B1865E16D0EFE900858712 /* PlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerView.h; sourceTree = "<group>"; };
+		57B1866016D0F02300858712 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		57B1866216D0F02B00858712 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		57B1866416D0F03100858712 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		57B1866E16D0F14100858712 /* AVPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVPlayerViewController.h; sourceTree = "<group>"; };
+		57B1866F16D0F14100858712 /* AVPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVPlayerViewController.m; sourceTree = "<group>"; };
+		57B1867016D0F14100858712 /* AVPlayerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AVPlayerViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57B1862E16D0EF8900858712 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57B1866516D0F03100858712 /* MobileCoreServices.framework in Frameworks */,
+				57B1866316D0F02B00858712 /* CoreMedia.framework in Frameworks */,
+				57B1866116D0F02300858712 /* AVFoundation.framework in Frameworks */,
+				57B1863616D0EF8900858712 /* UIKit.framework in Frameworks */,
+				57B1863816D0EF8900858712 /* Foundation.framework in Frameworks */,
+				57B1863A16D0EF8900858712 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57B1862616D0EF8900858712 = {
+			isa = PBXGroup;
+			children = (
+				57B1867316D0F51100858712 /* AVPlayer */,
+				57B1866416D0F03100858712 /* MobileCoreServices.framework */,
+				57B1866216D0F02B00858712 /* CoreMedia.framework */,
+				57B1866016D0F02300858712 /* AVFoundation.framework */,
+				57B1863B16D0EF8900858712 /* Swing_Checker_ */,
+				57B1863416D0EF8900858712 /* Frameworks */,
+				57B1863216D0EF8900858712 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		57B1863216D0EF8900858712 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57B1863116D0EF8900858712 /* Swing_Checker_.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57B1863416D0EF8900858712 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57B1863516D0EF8900858712 /* UIKit.framework */,
+				57B1863716D0EF8900858712 /* Foundation.framework */,
+				57B1863916D0EF8900858712 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		57B1863B16D0EF8900858712 /* Swing_Checker_ */ = {
+			isa = PBXGroup;
+			children = (
+				57B1864416D0EF8900858712 /* Swing_Checker_AppDelegate.h */,
+				57B1864516D0EF8900858712 /* Swing_Checker_AppDelegate.m */,
+				57B1864716D0EF8900858712 /* MainWindow.xib */,
+				57B1864A16D0EF8900858712 /* Swing_Checker_ViewController.h */,
+				57B1864B16D0EF8900858712 /* Swing_Checker_ViewController.m */,
+				57B1864D16D0EF8900858712 /* Swing_Checker_ViewController.xib */,
+				57B1863C16D0EF8900858712 /* Supporting Files */,
+			);
+			path = Swing_Checker_;
+			sourceTree = "<group>";
+		};
+		57B1863C16D0EF8900858712 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57B1863D16D0EF8900858712 /* Swing_Checker_-Info.plist */,
+				57B1863E16D0EF8900858712 /* InfoPlist.strings */,
+				57B1864116D0EF8900858712 /* Swing_Checker_-Prefix.pch */,
+				57B1864216D0EF8900858712 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		57B1867316D0F51100858712 /* AVPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				57B1865D16D0EFE900858712 /* PlayerView.m */,
+				57B1865E16D0EFE900858712 /* PlayerView.h */,
+				57B1867016D0F14100858712 /* AVPlayerViewController.xib */,
+				57B1866F16D0F14100858712 /* AVPlayerViewController.m */,
+				57B1866E16D0F14100858712 /* AVPlayerViewController.h */,
+			);
+			name = AVPlayer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57B1863016D0EF8900858712 /* Swing_Checker_ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57B1865216D0EF8900858712 /* Build configuration list for PBXNativeTarget "Swing_Checker_" */;
+			buildPhases = (
+				57B1862D16D0EF8900858712 /* Sources */,
+				57B1862E16D0EF8900858712 /* Frameworks */,
+				57B1862F16D0EF8900858712 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Swing_Checker_;
+			productName = Swing_Checker_;
+			productReference = 57B1863116D0EF8900858712 /* Swing_Checker_.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57B1862816D0EF8900858712 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 57B1862B16D0EF8900858712 /* Build configuration list for PBXProject "Swing_Checker_" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 57B1862616D0EF8900858712;
+			productRefGroup = 57B1863216D0EF8900858712 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57B1863016D0EF8900858712 /* Swing_Checker_ */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57B1862F16D0EF8900858712 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57B1864016D0EF8900858712 /* InfoPlist.strings in Resources */,
+				57B1864916D0EF8900858712 /* MainWindow.xib in Resources */,
+				57B1864F16D0EF8900858712 /* Swing_Checker_ViewController.xib in Resources */,
+				57B1867216D0F14200858712 /* AVPlayerViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57B1862D16D0EF8900858712 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57B1864316D0EF8900858712 /* main.m in Sources */,
+				57B1864616D0EF8900858712 /* Swing_Checker_AppDelegate.m in Sources */,
+				57B1864C16D0EF8900858712 /* Swing_Checker_ViewController.m in Sources */,
+				57B1865F16D0EFE900858712 /* PlayerView.m in Sources */,
+				57B1867116D0F14100858712 /* AVPlayerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		57B1863E16D0EF8900858712 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57B1863F16D0EF8900858712 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		57B1864716D0EF8900858712 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57B1864816D0EF8900858712 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		57B1864D16D0EF8900858712 /* Swing_Checker_ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57B1864E16D0EF8900858712 /* en */,
+			);
+			name = Swing_Checker_ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57B1865016D0EF8900858712 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		57B1865116D0EF8900858712 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		57B1865316D0EF8900858712 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Swing_Checker_/Swing_Checker_-Prefix.pch";
+				INFOPLIST_FILE = "Swing_Checker_/Swing_Checker_-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		57B1865416D0EF8900858712 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Swing_Checker_/Swing_Checker_-Prefix.pch";
+				INFOPLIST_FILE = "Swing_Checker_/Swing_Checker_-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57B1862B16D0EF8900858712 /* Build configuration list for PBXProject "Swing_Checker_" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57B1865016D0EF8900858712 /* Debug */,
+				57B1865116D0EF8900858712 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57B1865216D0EF8900858712 /* Build configuration list for PBXNativeTarget "Swing_Checker_" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57B1865316D0EF8900858712 /* Debug */,
+				57B1865416D0EF8900858712 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57B1862816D0EF8900858712 /* Project object */;
+}
